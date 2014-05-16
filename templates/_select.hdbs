@@ -1,0 +1,9 @@
+<div class="select" style>
+        <label for="selectedTrans">Select Lanaguage</label>
+         <select id="selectedTrans" name="selectedTrans" class="selectedTrans">
+              <option class="zd-menu-item" value>-</option>
+              {{#each langoption}}
+              <option class="zd-menu-item" value={{id}}>{{name}}</option>
+              {{/each}}
+          </select>
+  </div>

@@ -1,0 +1,22 @@
+{
+  "app": {
+    "description":  "Traduisez les commentaires du demandeur et de vos agents grâce à Google Translate !",
+    "name":         "Traduisez",
+    "parameters" : {
+      "disclaimer" : {
+        "label": "Notice de traduction automatique",
+        "helpText": "Ce message d'information sera ajouté à chaque commentaire effectué par un agent"  
+      }
+    }
+  },
+  "user": {
+    "requesterLang": "La langue du demandeur est",
+    "noLang": "Le demandeur n'a pas sélectionné de langue",
+    "btnTrans": "Traduire les commentaires",
+    "btnCurrComm": "Traduire le commentaire actuel",
+    "btnAgentTrans": "Traduire en"
+    },
+  "errors": {
+    "data": "Les champs de tickets sont introuvables"
+    }
+}

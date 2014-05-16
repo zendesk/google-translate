@@ -1,0 +1,30 @@
+{
+  "app": {
+    "description":  "Translate requester comments, and agent replies using Google Translate",
+    "name":         "Translate",
+    "parameters" : {
+      "disclaimer" : {
+        "label": "Auto Translation Disclaimer",
+        "helpText": "This disclaimer will be added to each agent translated comment"  
+      },
+      "apiKey": {
+        "label": "Google Translate Api Key",
+        "helpText": "Place the transalte API key you retreived from your Google console"
+      },
+      "toolTip": {
+        "label": "Hide tool tip",
+        "helpText":"Hide the hover over translated comment"
+      }
+    }
+  },
+  "user": {
+    "requesterLang": "The requesters language is",
+    "noLang": "The requester has not selected a language",
+    "btnTrans": "Translate comments",
+    "btnCurrComm": "Translate Current Comment",
+    "btnAgentTrans": "Translate to"
+    },
+  "errors": {
+    "data": "ticket fields not found"
+    }
+}

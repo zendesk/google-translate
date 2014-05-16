@@ -1,0 +1,32 @@
+<section data-main>
+  <div class="user-lang">
+    {{#if requesterLocale}}
+    <h5>{{t "user.requesterLang"}} {{requesterLocale.name}}</h5>
+    {{else}}
+    <h5>{{t "user.noLang"}}</h5>
+    {{/if}}
+  </div>
+  <div id="translate">
+    <button class='ember-view btn'><h6>{{t "user.btnTrans"}}</h6></button>
+  </div>
+  <div id="view-trans">
+    <div>
+      {{{manuallang}}}
+    </div>
+    <div class="trans-button">
+      <button id="trans-button" class="translatethis ember-view btn">{{t "user.btnCurrComm"}} <span>{{requesterLocale.name}}</span></button>
+    </div>
+    <div>
+     <table class="table table-condensed">
+        <tbody>
+          {{#each publicComments}}
+          <tr id="{{id}}" class="_tooltip" data-title="{{body}}">
+            <td><button id="{{id}}" class='splitThis ember-view btn'>{{t "user.btnAgentTrans"}} <span>{{../transTo.name}}</span></button></td>
+            <td>{{truncateBody}}</td>
+          </tr>
+        {{/each}}
+      </tbody>
+    </table>
+    </div>
+</div>
+</section>

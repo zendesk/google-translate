@@ -1,0 +1,28 @@
+{
+  "name": "Google Translate",
+  "author": {
+    "name": "Zendesk Services",
+    "email": "services@zendesk.com"
+  },
+  "parameters": [{
+    "name": "disclaimer",
+    "type": "text",
+    "required": false 
+  },
+  {
+   "name": "apiKey",
+   "type": "text",
+  "required": true,
+  "secure": true
+  },
+ {
+   "name": "toolTip",
+   "type": "checkbox",
+  "required": false
+  }
+  ],
+  "defaultLocale": "en",
+  "private": true,
+  "location": ["ticket_sidebar","new_ticket_sidebar"],
+  "frameworkVersion": "0.5"
+}
