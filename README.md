@@ -3,12 +3,18 @@ Translate App
 
 Overview
 --------
-*Translate user comments into the agents language.
-*Translate the agents reply into the customers' language.
+
+* Translate user comments into the agents language.
+* Translate the agents reply into the customers' language.
 
 Usage
 -----
 This app uses Zendesks' built in languages to translate the text sent to it. It will only translate languages you have selected in your Zendesk account.
+
+## Requirements 
+
+**Google Translate Api Key** (Google Translate API is a paid service)
+
 
 ## Copyright and license
 
