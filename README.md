@@ -5,8 +5,8 @@
 
 ## Description:
 
-*Translate user comments into the agents language.
-*Translate the agents reply into the customers' language.
+* Translate user comments into the agents language.
+* Translate the agents reply into the customers' language.
 
 ## App location:
 
