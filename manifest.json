@@ -12,8 +12,7 @@
   {
    "name": "apiKey",
    "type": "text",
-  "required": true,
-  "secure": true
+  "required": true
   },
  {
    "name": "toolTip",
@@ -24,5 +23,6 @@
   "defaultLocale": "en",
   "private": true,
   "location": ["ticket_sidebar","new_ticket_sidebar"],
-  "frameworkVersion": "0.5"
+  "frameworkVersion": "1.0",
+   "domainWhitelist": ["www.googleapis.com"]
 }
