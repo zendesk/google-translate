@@ -11,6 +11,7 @@
 ## App location:
 
 * Ticket sidebar
+* New ticket sidebar
 
 ## Usage
 
@@ -20,7 +21,7 @@ This app uses Zendesks' built in languages to translate the text sent to it. It 
 ## Features:
 
 ## Set-up/installation instructions:
-You need a google translate key [https://developers.google.com/translate/v2/getting_started]
+You need a google translate key [Getting Started](https://developers.google.com/translate/v2/getting_started)
 
 
 ## Contribution:
@@ -28,4 +29,20 @@ You need a google translate key [https://developers.google.com/translate/v2/gett
 Pull requests are welcome.
 
 ## Screenshot(s):
+The install screen
+![alt text](https://raw.githubusercontent.com/zendesklabs/google-translate/master/assets/install.png)
 
+The app on ticket load
+![alt text](https://raw.githubusercontent.com/zendesklabs/google-translate/master/assets/ticketload.png)
+
+Screen to translate 
+![alt text](https://raw.githubusercontent.com/zendesklabs/google-translate/master/assets/tooltip.png)
+
+Translated End user comment
+![alt text](https://raw.githubusercontent.com/zendesklabs/google-translate/master/assets/translatedcomment.png)
+
+Translated Agent comment 
+![alt text](https://raw.githubusercontent.com/zendesklabs/google-translate/master/assets/translate-new-comment.png)
+
+Comment added to ticket
+![alt text](https://raw.githubusercontent.com/zendesklabs/google-translate/master/assets/translateAgnetcomment.png)
