@@ -21,7 +21,7 @@ This app uses Zendesks' built in languages to translate the text sent to it. It 
 ## Features:
 
 ## Set-up/installation instructions:
-You need a google translate key [Getting Started](https://developers.google.com/translate/v2/getting_started)
+*Google Translate Api Key** (Google Translate API is a paid service) [Getting Started](https://developers.google.com/translate/v2/getting_started)
 
 
 ## Contribution:
